@@ -4,8 +4,6 @@ from bs4 import BeautifulSoup
 
 
 FRONTEND_URL = "http://minitwit:5000"
-
-
 while True:
     # This is a hack...
     r = requests.get(FRONTEND_URL)
